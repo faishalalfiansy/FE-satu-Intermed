@@ -1,5 +1,5 @@
-import Judul from '../Molecules/Logindaftar/Judul'
-import Formlogin from '../Organisme/Formlogin'
+import Judul from '/src/components/Molecules/Logindaftar/Judul'
+import Formlogin from '/src/components/Organisme/Formlogin'
 
 const Cardlogin = () => {
     return (

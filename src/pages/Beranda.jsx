@@ -1,6 +1,6 @@
-import './Beranda.css'
-import Navberanda from '../components/Template/Navberanda'
-import Cardberanda from '../components/Template/Cardberanda'
+import '/src/pages/Beranda.css'
+import Navberanda from '/src/components/Template/Navberanda'
+import Cardberanda from '/src/components/Template/Cardberanda'
 
 const Beranda = () => {
 

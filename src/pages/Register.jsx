@@ -1,6 +1,6 @@
-import Navbar from "../components/Molecules/Navbar"
-import Cardregister from "../components/Template/Cardregister"
-import './Register.css'
+import Navbar from "/src/components/Molecules/Navbar"
+import Cardregister from "/src/components/Template/Cardregister"
+import '/src/pages/Register.css'
 const Register = () => {
     return (
         <>

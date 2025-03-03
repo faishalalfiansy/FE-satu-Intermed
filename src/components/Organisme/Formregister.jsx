@@ -1,9 +1,9 @@
-import Inputan from '../Molecules/Logindaftar/Inputan'
-import Inputanpass from '../Molecules/Logindaftar/Inputanpass'
-import Buttonvsatu from '../Molecules/Logindaftar/Buttonvsatu'
-import Lupapass from '../Molecules/Logindaftar/Lupapass'
-import Atau from '../Molecules/Logindaftar/Atau'
-import Buttongo from '../Molecules/Logindaftar/Buttonimg'
+import Inputan from "/src/components/Molecules/Logindaftar/Inputan";
+import Inputanpass from "/src/components/Molecules/Logindaftar/Inputanpass";
+import Buttonvsatu from "/src/components/Molecules/Logindaftar/Buttonvsatu";
+import Lupapass from "/src/components/Molecules/Logindaftar/Lupapass";
+import Atau from "/src/components/Molecules/Logindaftar/Atau";
+import Buttongo from "/src/components/Molecules/Logindaftar/Buttonimg";
 import Inputnomor from '../Molecules/Logindaftar/Inputnomor'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'

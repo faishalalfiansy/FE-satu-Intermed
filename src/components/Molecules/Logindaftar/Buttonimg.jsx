@@ -1,4 +1,4 @@
-import Buttons from "../../Atom/Buttons";
+import Buttons from "/src/components/Atom/Buttons";
 const Buttongo = (props) => {
     const { typebutton, kelastombol, sumber,kelasimg, children } = props
     return (

@@ -1,5 +1,5 @@
-import Buttongo from "./Buttonimg"
-import Label from "../../atom/label"
+import Buttongo from "/src/components/Molecules/Logindaftar/Buttonimg"
+import Label from "/src/components/Atom/Label"
 const Nomor = (props) => {
     const { } = props
     return (

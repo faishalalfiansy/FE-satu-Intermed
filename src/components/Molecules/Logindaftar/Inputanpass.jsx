@@ -1,5 +1,5 @@
-import Input from "../../atom/input"
-import Label from "../../atom/label"
+import Input from "/src/components/Atom/Input"
+import Label from "/src/components/Atom/Label"
 
 const InputanPass = (props) => {
     const { namalabel, namaId, title, kelasinput,children } = props

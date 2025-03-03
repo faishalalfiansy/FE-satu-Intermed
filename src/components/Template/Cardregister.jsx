@@ -1,6 +1,5 @@
-import Judul from '../Molecules/Logindaftar/Judul'
-import Formregister from '../Organisme/Formregister'
-
+import Judul from '/src/components/Molecules/Logindaftar/Judul'
+import Formregister from '/src/components/Organisme/Formregister'
 const Cardregister = () => {
     return (
         <div className="cardss">

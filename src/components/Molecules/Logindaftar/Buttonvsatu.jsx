@@ -1,4 +1,4 @@
-import Buttons from "../../atom/Buttons";
+import Buttons from "/src/components/Atom/Buttons";
 
 const Buttonvsatu = (props) => {
     const { typebutton, children, kelastombol, kelasdiv, klik} = props

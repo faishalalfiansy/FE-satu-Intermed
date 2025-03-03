@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../Molecules/Navbar';
+import Navbar from '/src/components/Molecules/Navbar';
 
 const Navberanda = () => {
     // State untuk mengatur apakah menu dropdown terbuka atau tertutup

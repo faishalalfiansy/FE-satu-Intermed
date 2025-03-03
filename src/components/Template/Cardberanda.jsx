@@ -1,5 +1,5 @@
-import Isiberanda from "../Organisme/Isiberanda";
-import Footerberanda from "../Organisme/Foterberanda";
+import Isiberanda from "/src/components/Organisme/Isiberanda";
+import Footerberanda from "/src/components/Organisme/Foterberanda";
 const Cardberanda = () => {
     return (
         <>

@@ -1,6 +1,6 @@
-import Navbar from "../components/Molecules/Navbar"
-import Cardlogin from "../components/Template/Cardlogin"
-import './Login.css'
+import Navbar from "/src/components/Molecules/Navbar"
+import Cardlogin from "/src/components/Template/Cardlogin"
+import '/src/pages/Login.css'
 const Login = () => {
     return (
         <>
