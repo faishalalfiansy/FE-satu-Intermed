@@ -1,5 +1,5 @@
 import HeaderCard from "../../atom/HeaderCard"
-import SubJudul from "../../atom/subJudul";
+import SubJudul from "../../atom/SubJudul";
 const Judul = (props) => {
     const { titleHeader, titleSubjudul, kelasjudul } = props
     return (
