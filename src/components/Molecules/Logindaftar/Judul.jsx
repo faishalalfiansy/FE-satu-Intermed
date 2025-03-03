@@ -1,4 +1,4 @@
-import HeaderCard from "/src/components/Atom/HeaderCard";
+import HeaderCard from "/src/components/Atom/HeaderCard.jsx";
 import SubJudul from "/src/components/Atom/SubJudul";
 const Judul = (props) => {
     const { titleHeader, titleSubjudul, kelasjudul } = props
