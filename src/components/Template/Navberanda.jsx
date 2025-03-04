@@ -29,7 +29,7 @@ const Navberanda = () => {
           </div>
   
           {/* Gambar menu burger */}
-          <img src="/src/assets/burgerIcon.png" alt="burger" className='burger'/>
+          <img src="/src/assets/burgerIcon.png" alt="burger" onClick={toggleMenu} className='burger'/>
   
           {/* Menu dropdown, hanya tampil ketika isMenuOpen true */}
           {isMenuOpen && (
