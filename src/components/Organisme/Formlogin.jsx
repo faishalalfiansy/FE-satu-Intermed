@@ -33,7 +33,7 @@ const Formlogin = () => {
       </div>
       <Atau children="atau" />
       <div className="social">
-        <Buttongo typebutton="submit" kelastombol="google" sumber="/src/assets/logoGoogle.png " kelasimg="logoG">
+        <Buttongo typebutton="submit" kelastombol="google" sumber={require("/src/assets/logoGoogle.png")} kelasimg="logoG">
           <p>Masuk dengan Google</p>
         </Buttongo>
       </div>
