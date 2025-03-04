@@ -29,7 +29,7 @@ const Formregister = () => {
       </div>
       <Atau children="atau" />
       <div className='social'>
-        <Buttongo typebutton="submit" kelastombol="google" sumber="/src/assets/logoGoogle.png " kelasimg="logoG">
+        <Buttongo typebutton="submit" kelastombol="google" sumber="/src/assets/logoGoogle.png" kelasimg="logoG">
           <p>Daftar dengan Google</p>
         </Buttongo>
       </div>
