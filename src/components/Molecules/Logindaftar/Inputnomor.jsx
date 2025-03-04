@@ -1,7 +1,7 @@
 import Buttongo from "/src/components/Molecules/Logindaftar/Buttonimg";
-import Option from "/src/components/Atom/Option";
-import Input from "/src/components/Atom/Input";
-import Label from "/src/components/Atom/Label";
+import Option from "/src/components/atom/Option";
+import Input from "/src/components/atom/Input";
+import Label from "/src/components/atom/Label";
 const Inputnomor = (props) => {
     const { sumber,kelasimg, nama, idselect } = props;
     return (

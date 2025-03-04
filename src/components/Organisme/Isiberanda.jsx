@@ -1,6 +1,6 @@
 import Cardkelas from "/src/components/Molecules/Minicard/Cardkelas";
 import Hero from "/src/components/Molecules/Minicard/Hero";
-import Buttons from "/src/components/Atom/Buttons";
+import Buttons from "/src/components/atom/Buttons";
 const Isiberanda = () => {
   return (
     <div className="container">
