@@ -8,6 +8,7 @@ import Inputnomor from '../Molecules/Logindaftar/Inputnomor'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import Logol from "/src/assets/logoGoogle.png";
+import Bendera from "/src/assets/logoIndonesia.png"
 
 const Formregister = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const Formregister = () => {
       <div className='box-input'>
         <Inputan namaLabel="email" kelasinput="input-field" namaId="nama" title="Nama Lengkap"><span>*</span></Inputan>
         <Inputan namaLabel="email" kelasinput="input-field" namaId="email" title="E-mail"><span>*</span></Inputan>
-        <Inputnomor sumber="/src/assets/logoIndonesia.png" kelasimg="idn" nama="kode" idselect="kode"/>
+        <Inputnomor sumber={Bendera} kelasimg="idn" nama="kode" idselect="kode"/>
         <Inputanpass namaLabel="password" kelasinput="input-field" namaId="password" title="Kata Sandi"><span>*</span></Inputanpass>
         <Inputanpass namaLabel="password" kelasinput="input-field" namaId="passwordre" title="Konfirmasi Kata Sandi"><span>*</span></Inputanpass>
       </div>
