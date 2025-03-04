@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '/src/components/Molecules/Navbar';
+import Ava from '/src/assets/Avatar.png'
+import Burger from '/src/assets/burgerIcon.png'
 
 const Navberanda = () => {
     // State untuk mengatur apakah menu dropdown terbuka atau tertutup
@@ -21,7 +23,7 @@ const Navberanda = () => {
   
             {/* Gambar Avatar, klik untuk toggle dropdown */}
             <img
-              src="src/assets/avatar.png"
+              src={Ava}
               alt="Avatar"
               onClick={toggleMenu}
               className="avatar-img"
@@ -29,7 +31,7 @@ const Navberanda = () => {
           </div>
   
           {/* Gambar menu burger */}
-          <img src="/src/assets/burgerIcon.png" alt="burger" onClick={toggleMenu} className='burger'/>
+          <img src={Burger} alt="burger" onClick={toggleMenu} className='burger'/>
   
           {/* Menu dropdown, hanya tampil ketika isMenuOpen true */}
           {isMenuOpen && (
