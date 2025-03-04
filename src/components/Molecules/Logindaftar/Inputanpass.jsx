@@ -1,5 +1,6 @@
 import Input from "/src/components/atom/Input"
 import Label from "/src/components/atom/Label"
+import eye from "/src/assets/eye.png"
 
 const InputanPass = (props) => {
     const { namalabel, namaId, title, kelasinput,children } = props
@@ -7,7 +8,7 @@ const InputanPass = (props) => {
         <div className="input-box">
             <Label namaLabel={namalabel}> {title} {children}</Label>
             <Input typeInput="password" kelasinput={kelasinput} namaId={namaId} required />
-            <img className='eye' src="./src/assets/eye.png"/>
+            <img className='eye' src={eye}/>
         </div>
     )
 }

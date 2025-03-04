@@ -1,8 +1,9 @@
+import Logo from "/src/assets/logoUtama.png"
 const Navbar = (props) => {
     const { children } = props
     return (
     <div className='navbar'>
-        <img src="/src/assets/logoUtama.png" alt="" />
+        <img src={Logo} alt="" />
         {children}
     </div>
     )

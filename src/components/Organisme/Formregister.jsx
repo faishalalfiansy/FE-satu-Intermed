@@ -7,6 +7,7 @@ import Buttongo from "/src/components/Molecules/Logindaftar/Buttonimg";
 import Inputnomor from '../Molecules/Logindaftar/Inputnomor'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import Logol from "/src/assets/logoGoogle.png";
 
 const Formregister = () => {
   const navigate = useNavigate();
@@ -29,7 +30,7 @@ const Formregister = () => {
       </div>
       <Atau children="atau" />
       <div className='social'>
-        <Buttongo typebutton="submit" kelastombol="google" sumber="/src/assets/logoGoogle.png" kelasimg="logoG">
+        <Buttongo typebutton="submit" kelastombol="google" sumber={Logol} kelasimg="logoG">
           <p>Daftar dengan Google</p>
         </Buttongo>
       </div>

@@ -1,3 +1,5 @@
+import Logol from "/src/assets/logoUtama.png"
+import Panah from "/src/assets/icon-panah.png"
 const Footerberanda = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Footerberanda = () => {
           <div className="container-footer">
             <section className="isi-footer">
               <section className="isi1-footer">
-                <img src="/src/assets/logoUtama.png" alt="" />
+                <img src={Logol} alt="" />
                 <p>
                   <span>
                     Gali Potensi Anda Melalui Pembelajaran Video di Vbelajar.id
@@ -67,9 +69,9 @@ const Footerberanda = () => {
                   </li>
                 </section>
                 <section className="panah">
-                  <img src="src/assets/icon-panah.png" alt="" />
-                  <img src="src/assets/icon-panah.png" alt="" />
-                  <img src="src/assets/icon-panah.png" alt="" />
+                  <img src={Panah} alt="" />
+                  <img src={Panah} alt="" />
+                  <img src={Panah} alt="" />
                 </section>
               </section>
             </section>
@@ -79,10 +81,10 @@ const Footerberanda = () => {
                 <p>&copy;2024 PT Noriba Goberkah Jaya Tbk</p>
               </section>
               <section className="icon-footer">
-                <img src="src/assets/icon1.png" alt="" />
-                <img src="src/assets/icon2.png" alt="" />
-                <img src="src/assets/icon3.png" alt="" />
-                <img src="src/assets/icon4.png" alt="" />
+                <img src="/src/assets/icon1.png" alt="" />
+                <img src="/src/assets/icon2.png" alt="" />
+                <img src="/src/assets/icon3.png" alt="" />
+                <img src="/src/assets/icon4.png" alt="" />
               </section>
             </section>
           </div>
