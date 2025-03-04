@@ -81,10 +81,10 @@ const Footerberanda = () => {
                 <p>&copy;2024 PT Noriba Goberkah Jaya Tbk</p>
               </section>
               <section className="icon-footer">
-                <img src="/src/assets/icon1.png" alt="" />
-                <img src="/src/assets/icon2.png" alt="" />
-                <img src="/src/assets/icon3.png" alt="" />
-                <img src="/src/assets/icon4.png" alt="" />
+                <img src="/public/icon1.png" alt="" />
+                <img src="/public/icon2.png" alt="" />
+                <img src="/public/icon3.png" alt="" />
+                <img src="/public/icon4.png" alt="" />
               </section>
             </section>
           </div>

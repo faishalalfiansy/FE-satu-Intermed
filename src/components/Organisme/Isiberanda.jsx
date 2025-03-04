@@ -32,39 +32,39 @@ const Isiberanda = () => {
       </section>
       <div className="cardbatas">
       <Cardkelas
-          sumber="/src/assets/card1.jpg"
+          sumber="/public/card1.jpg"
           childrenone="IT Fullstack Developer"
         />
         <Cardkelas
-          sumber="/src/assets/card2.jpg"
+          sumber="/public/card2.jpg"
           childrenone="UI/UX Designer"
         />
         <Cardkelas
-          sumber="/src/assets/card3.jpg"
+          sumber="/public/card3.jpg"
           childrenone="Pemasaran Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card4.jpg"
+          sumber="/public/card4.jpg"
           childrenone="Pengembangan Diri"
         />
         <Cardkelas
-          sumber="/src/assets/card5.jpg"
+          sumber="/public/card5.jpg"
           childrenone="Bisnis Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card6.jpg"
+          sumber="/public/card6.jpg"
           childrenone="Pemasaran Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card7.jpg"
+          sumber="/public/card7.jpg"
           childrenone="Pengembangan Diri"
         />
         <Cardkelas
-          sumber="/src/assets/card8.jpg"
+          sumber="/public/card8.jpg"
           childrenone="Bisnis Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card9.jpg"
+          sumber="/public/card9.jpg"
           childrenone="Pemasaran Digital"
         />
       </div>

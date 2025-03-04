@@ -50,6 +50,10 @@ body{
     transition: max-height 0.5s;
 }
 
+.exit{
+    color: red;
+}
+
 .sub-menu-wrap.open-menu{
     max-height: 400px;
 }

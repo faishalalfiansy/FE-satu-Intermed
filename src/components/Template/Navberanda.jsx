@@ -50,7 +50,7 @@ const Navberanda = () => {
               <hr />
               <div className='exit'>
                 <a href="">Keluar</a>
-                <img src="/src/assets/exit.png" alt="Exit" />
+                <img src="/public/exit.png" alt="Exit" />
               </div>
             </div>
           )}
