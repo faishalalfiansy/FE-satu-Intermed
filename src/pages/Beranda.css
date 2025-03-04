@@ -231,7 +231,7 @@
   /* news */
   .news-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.763),
-    rgba(0, 0, 0, 0.833)), url("../assets/newsletter.jpg");
+    rgba(0, 0, 0, 0.833)), url("../../src/assets/newsletter.jpg");
     width: 100%;
     height: 400px;
     background-position: center;
