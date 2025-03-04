@@ -6,6 +6,7 @@ import Atau from "/src/components/Molecules/Logindaftar/Atau";
 import Buttongo from "/src/components/Molecules/Logindaftar/Buttonimg";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import Logol from "/src/assets/logoGoogle.png";
 
 const Formlogin = () => {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ const Formlogin = () => {
       </div>
       <Atau children="atau" />
       <div className="social">
-        <Buttongo typebutton="submit" kelastombol="google" sumber={require("/src/assets/logoGoogle.png")} kelasimg="logoG">
+        <Buttongo typebutton="submit" kelastombol="google" sumber={Logol} kelasimg="logoG">
           <p>Masuk dengan Google</p>
         </Buttongo>
       </div>

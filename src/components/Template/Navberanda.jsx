@@ -21,7 +21,7 @@ const Navberanda = () => {
   
             {/* Gambar Avatar, klik untuk toggle dropdown */}
             <img
-              src={require('/src/assets/avatar.png')}
+              src="src/assets/avatar.png"
               alt="Avatar"
               onClick={toggleMenu}
               className="avatar-img"
