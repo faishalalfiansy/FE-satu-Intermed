@@ -1,5 +1,11 @@
 import Logol from "/src/assets/logoUtama.png"
 import Panah from "/src/assets/icon-panah.png"
+import Iconsatu from "/src/assets/icon1.png"
+import Icondua from "/src/assets/icon2.png"
+import Icontiga from "/src/assets/icon3.png"
+import Iconempat from "/src/assets/icon4.png"
+
+
 const Footerberanda = () => {
   return (
     <>
@@ -81,10 +87,10 @@ const Footerberanda = () => {
                 <p>&copy;2024 PT Noriba Goberkah Jaya Tbk</p>
               </section>
               <section className="icon-footer">
-                <img src="/src/assets/icon1.png" alt="" />
-                <img src="/src/assets/icon2.png" alt="" />
-                <img src="/src/assets/icon3.png" alt="" />
-                <img src="/src/assets/icon4.png" alt="" />
+                <img src={Iconsatu} alt="" />
+                <img src={Icondua} alt="" />
+                <img src={Icontiga} alt="" />
+                <img src={Iconempat} alt="" />
               </section>
             </section>
           </div>

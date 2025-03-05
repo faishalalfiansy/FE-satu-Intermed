@@ -1,6 +1,15 @@
 import Cardkelas from "/src/components/Molecules/Minicard/Cardkelas";
 import Hero from "/src/components/Molecules/Minicard/Hero";
 import Buttons from "/src/components/atom/Buttons";
+import Cardimg1 from "/src/assets/card1.jpg";
+import Cardimg2 from "/src/assets/card2.jpg";
+import Cardimg3 from "/src/assets/card3.jpg";
+import Cardimg4 from "/src/assets/card4.jpg";
+import Cardimg5 from "/src/assets/card5.jpg";
+import Cardimg6 from "/src/assets/card6.jpg";
+import Cardimg7 from "/src/assets/card7.jpg";
+import Cardimg8 from "/src/assets/card8.jpg";
+import Cardimg9 from "/src/assets/card9.jpg";
 const Isiberanda = () => {
   return (
     <div className="container">
@@ -32,39 +41,39 @@ const Isiberanda = () => {
       </section>
       <div className="cardbatas">
       <Cardkelas
-          sumber="/src/assets/card1.jpg"
+          sumber={Cardimg1}
           childrenone="IT Fullstack Developer"
         />
         <Cardkelas
-          sumber="/src/assets/card2.jpg"
+          sumber={Cardimg2}
           childrenone="UI/UX Designer"
         />
         <Cardkelas
-          sumber="/src/assets/card3.jpg"
+          sumber={Cardimg3}
           childrenone="Pemasaran Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card4.jpg"
+          sumber={Cardimg4}
           childrenone="Pengembangan Diri"
         />
         <Cardkelas
-          sumber="/src/assets/card5.jpg"
+          sumber={Cardimg5}
           childrenone="Bisnis Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card6.jpg"
+          sumber={Cardimg6}
           childrenone="Pemasaran Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card7.jpg"
+          sumber={Cardimg7}
           childrenone="Pengembangan Diri"
         />
         <Cardkelas
-          sumber="/src/assets/card8.jpg"
+          sumber={Cardimg8}
           childrenone="Bisnis Digital"
         />
         <Cardkelas
-          sumber="/src/assets/card9.jpg"
+          sumber={Cardimg9}
           childrenone="Pemasaran Digital"
         />
       </div>
