@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-import ass from 'vite-plugin-asset-injector'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss(),ass],
+  plugins: [react(),tailwindcss()],
   assetsInclude: ['**/*.gltf'],
 })
 
